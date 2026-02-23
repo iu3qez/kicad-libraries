@@ -1,0 +1,7 @@
+{
+"description": "Power Supply 3.3V",
+"keywords": "power, ldo",
+"fields": {
+"IC": "SGM2212"
+}
+}

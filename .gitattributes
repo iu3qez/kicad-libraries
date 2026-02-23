@@ -1,0 +1,18 @@
+# Default: auto-detect
+* text=auto
+
+# KiCad files: force LF (funziona su entrambi)
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_wks text eol=lf
+
+# Gerber/drill: LF
+*.gbr binary
+*.drl binary
+
+# Binary
+*.step binary
+*.wrl binary
